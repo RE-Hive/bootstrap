@@ -10,3 +10,77 @@
     font-weight: bold;
     margin-right: 20px;
 }
+
+.icon-service {
+    width: 90px;
+    height:90px;
+    border: solid #fff 2px;
+    border-radius: 50%;
+    color: #ffff;
+}
+
+.tcard{
+    background: white !important;
+    border: 1px solid #ddd !important;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+    height: 100%;
+}
+
+.tcard:hover {
+    transform: translateY(-10px);
+    background: rgba(255, 255, 255, 0.13);
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+
+.tcard .quote-icon {
+    font-size: 2rem;
+    color: #ff0000;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+.tcard h5 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 4px;
+}
+
+
+.tcard .author {
+    font-size: 1rem;
+    color: #777;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+
+.tcard .stars i {
+    color: #ffcc00;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.footer{
+    background-color: #C31100;
+    padding: 0 0;
+    margin: 0 0;
+}
+
+i :hover {
+    color: rgb(69, 69, 143);
+}
+
+i.bi {
+    font-size: 3rem;
+    color: white;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer p{
+    color: white;
+}
